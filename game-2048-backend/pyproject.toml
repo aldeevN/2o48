@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Igor Sagaidak <zenbee111@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.5"
+
+drf-spectacular = "^0.26.4"
+django-jazzmin = "^2.5.0"
+whitenoise = "^6.2.0"
+psycopg2 = "^2.9.5"
+gunicorn = "^20.1.0"
+django-cors-headers = "^3.13.0"
+black = "^23.12.1"
+isort = "^5.13.2"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.3.1"
+django-redis = "^5.4.0"
+django-phonenumber-field = "^7.3.0"
+django-phonenumbers = "^1.0.1"
+cryptography = "^42.0.5"
+django-filter = "^24.1"
+confluent-kafka = "^2.3.0"
+django-structlog = "^7.1.0"
+requests = "^2.32.3"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,88 @@
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 700px;
+   height: 815px;
+}
+
+.background {
+   width: 700px;
+   height: 815px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   border-radius: 25px;
+   width: 610px;
+   height: 815px;
+   box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.25);
+   background: rgba(70, 71, 92, 0.9);
+   margin: 0 auto;
+   align-items: center;
+}
+
+.h2 {
+   width: 500px;
+   height: 23px;
+   font-weight: 700;
+   font-size: 48px;
+   text-align: center;
+   color: #d9d9d9;
+   margin: 60px 0 79px 0;
+}
+
+.content {
+   width: 500px;
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.Link {
+   font-weight: 600;
+   font-size: 32px;
+   text-align: center;
+   color: #d9d9d9;
+   text-decoration: none;
+   margin-left: 5px;
+}
+
+.image {
+   margin-right: 5px;
+   width: 50px;
+   height: 50px;
+}
+
+.span {
+   font-weight: 600;
+   font-size: 32px;
+   text-align: center;
+   color: #d9d9d9;
+}
+
+.setting {
+   display: flex;
+}
+
+.btncontainer {
+	margin-top: 320px;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 11px;
+   width: 191px;
+   height: 57px;
+   box-shadow: 1px 4px 4px 0 #46475c;
+   background: #d9d9d9;
+   font-weight: 600;
+   font-size: 32px;
+   text-align: center;
+   color: #595962;
+}

@@ -1,0 +1,90 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    width: 1265px;
+    height: 815px;
+    background: rgba(70, 71, 92, 0.9);
+    margin: 0 auto;
+}
+
+
+
+.closeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff00;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    border: none;
+    box-shadow: none;
+}
+
+.containerTitle{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #d9d9d9;
+    margin: 0;
+    margin-bottom: 35px;
+    margin-top: 60px;
+}
+
+.username{
+    color: #d9d9d9;
+    font-size: 32px;
+    font-weight: 600;
+    margin-right: 10px;
+    
+}
+
+.userscore{
+    font-size: 32px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+
+.containerList{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 600px;
+    min-width: fit-content;
+}
+
+
+.containerList li{
+    display: flex;
+    padding-left: 95px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 175px;
+    margin-left: 10px;
+    counter-increment: schetchik;
+    
+    
+}
+
+.containerList li::before{
+   content: counter(schetchik);
+   position: absolute;
+   margin-left: -70px;
+   font-size: 32px;
+}
+
+.hrLine{
+    position: absolute;
+    width: 0;
+    height: 571px;
+    color: #d9d9d9;
+    top: 153px;
+    left: 632px;
+}

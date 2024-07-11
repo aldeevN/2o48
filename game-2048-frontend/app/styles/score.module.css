@@ -1,0 +1,21 @@
+.score {
+  display: flex;
+  font-weight: 700;
+  font-size: 27px;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 100px;
+  transform: translate(0, 100%);
+  border-radius: calc(var(--pixel-size) * 0.75);
+  color: var(--primary-text-color);
+  font-size: calc(var(--pixel-size) * 1.5);
+  line-height: calc(var(--pixel-size) * 3);
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.score__number {
+  font-size: 48px;
+}

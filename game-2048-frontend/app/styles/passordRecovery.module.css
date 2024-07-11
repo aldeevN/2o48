@@ -1,0 +1,147 @@
+.margin {
+   margin-bottom: 29px;
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.logo {
+   margin: 94px 0 80px 0;
+}
+
+.background {
+   border-radius: 30px;
+   width: 700px;
+   min-height: 485px;
+   background: rgba(72, 62, 89, 0.66);
+   margin: 0 auto;
+   align-items: center;
+}
+
+.h2 {
+   width: 390px;
+   height: 23px;
+   margin: 40px 0 60px 165px;
+   font-weight: 600;
+   font-size: 32px;
+   text-align: center;
+   color: #d9d9d9;
+}
+
+.inputGroup {
+   width: 380px;
+   height: 50px;
+   margin-left: 177px;
+   position: relative;
+   text-align: center;
+}
+
+.inputLabel {
+   height: 30px;
+   left: 20px;
+   top: -21px;
+   position: absolute;
+   font-weight: 700;
+   font-size: 14px;
+   text-align: center;
+   color: #d9d9d9;
+   background: rgba(72, 62, 89, 0.66);
+   cursor: pointer;
+}
+
+.validation {
+   position: absolute;
+   left: 215px;
+   top: -32px;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   color: #f00;
+}
+
+.input {
+   padding-left: 20px;
+   line-height: 1;
+   border-style: none;
+   outline: none;
+   border: 1px solid #7f8798;
+   border-radius: 5px;
+   width: 345px;
+   height: 50px;
+   background: rgba(217, 217, 217, 0);
+   color: white;
+   font-size: 16px;
+   background-image: rgba(217, 217, 217, 0);
+   background-origin: border-box;
+   background-clip: padding-box, border-box;
+}
+
+.register {
+   width: 320px;
+   height: 13px;
+   font-weight: 500;
+   font-size: 18px;
+   text-align: center;
+   color: #d9d9d9;
+   margin: 21px 0 30px 203px;
+}
+
+.registerLink {
+   font-weight: 500;
+   font-size: 18px;
+   text-decoration: underline;
+   text-decoration-skip-ink: none;
+}
+
+.btn {
+   margin: 15px 0 0 183px;
+}
+
+.return {
+   margin: 0;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   color: #d9d9d9;
+}
+
+
+
+.errorInput {
+   border: 1px solid #f00;
+}
+
+.errorLabal {
+   color: #f00;
+}
+
+
+.back {
+   margin-left: 300px;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   color: #d9d9d9;
+   backdrop-filter: blur(4px);
+   text-decoration: none;
+}
+
+.contiBtn{
+   background-color: #f00;
+}
+
+.mg{
+   margin-bottom: 30px;
+}
+
+.hide{
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   clip: rect(0 0 0 0);
+}

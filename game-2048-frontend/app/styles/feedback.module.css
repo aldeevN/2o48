@@ -1,0 +1,126 @@
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 250px;
+}
+
+.background {
+   position: relative;
+   border-radius: 30px;
+   width: 470px;
+   height: 397px;
+   background: rgba(72, 62, 89, 0.66);
+   margin: 0 auto;
+   align-items: center;
+}
+
+.h2 {
+   width: 370px;
+   height: 23px;
+   margin: 30px 0 50px 47px;
+   font-weight: 400;
+   font-size: 32px;
+   text-align: center;
+   color: #d9d9d9;
+}
+.regError {
+   position: absolute;
+   top: 80px;
+   left: 200px;
+   margin: 0;
+   width: 320px;
+   height: 27px;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   line-height: 20px;
+   color: #f00;
+}
+
+.inputGroup {
+   width: 380px;
+   height: 152px;
+   margin-left: 43px;
+   position: relative;
+   text-align: center;
+}
+
+.inputLabel {
+   height: 30px;
+   left: 27px;
+   top: -21px;
+   position: absolute;
+   font-weight: 700;
+   font-size: 14px;
+   text-align: center;
+   color: #d9d9d9;
+   backdrop-filter: blur(5px);
+   cursor: pointer;
+}
+
+.validation {
+   position: absolute;
+   left: 215px;
+   top: -32px;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   color: #f00;
+}
+
+.input {
+   padding: 20px 0 0 20px;
+   line-height: 1;
+   border-style: none;
+   outline: none;
+   border: 1px solid #7f8798;
+   border-radius: 5px;
+   width: 345px;
+   height: 152px;
+   background: rgba(217, 217, 217, 0);
+   color: white;
+   font-size: 16px;
+   background-image: rgba(217, 217, 217, 0);
+   background-origin: border-box;
+   background-clip: padding-box, border-box;
+   resize: none;
+   font-weight: 400;
+   font-size: 14px;
+   color: #7f8798;
+}
+.errorInput {
+   border: 1px solid #f00;
+}
+
+.errorLabal {
+   color: #f00;
+}
+
+.btn {
+   margin: 50px 0 0 48px;
+}
+
+.closeBtn {
+   position: absolute;
+   top: -30px;
+   left: -45px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   width: 30px;
+   height: 30px;
+   background-color: #ffffff00;
+   transform: translate(1565%, 135%);
+   border: none;
+   box-shadow: none;
+}
+
+.closeImg{
+   width: 30px;
+   height: 30px;
+}
+
+
+

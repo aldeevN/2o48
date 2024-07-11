@@ -45,7 +45,13 @@
     margin-top: 45px;
     
 }
-
+.img__user{
+    width: 70px;
+    height: 70px;
+    border-radius: 21px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
 .header__title{
     display: flex;
     flex-direction: row;

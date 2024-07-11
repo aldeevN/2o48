@@ -38,7 +38,7 @@ export default function User(props) {
             <button onClick={() => {props.onClose()}} className={style.closeBtn} style={{
             }}>
             </button>
-            {user?.profile_pic ? (<img className={style.main__logo} src={`${apiBack}${user?.profile_pic}`} alt="user-jpg" />):(<div className={style.main__logo}><RandomAvatar square={true} size={200} /></div>)}
+            {user?.profile_pic ? (<img className={style.main__logo} src={`${apiBack}${user?.profile_pic}`} alt="user-jpg" />):(<div className={style.main__logo}><RandomAvatar name={user?.username}  square={true} size={200} /></div>)}
             <span className={style.regError}>{errors.root?.message}</span>
             <div className={style.header__title}>
                 <h1 className={style.title}>
